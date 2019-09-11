@@ -43,7 +43,7 @@ app.use(
 
 // set up routes
 app.use("/auth", authRoutes);
-app.use("/profile",profRoutes);
+//app.use("/profile",profRoutes);
 
 const authCheck = (req, res, next) => {
   if (!req.user) {
